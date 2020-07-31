@@ -19,17 +19,17 @@ app.get('/', (req, res) => {
   });
 })
 
-app.get('/:id', (req, res) => {
-  // TODO: redirect to url
-});
+// app.get('/:id', (req, res) => {
+//   // TODO: redirect to url
+// });
 
-app.get('/url/:id', (req, res) => {
-  //TODO: retrieve information of url
-});
+// app.get('/url/:id', (req, res) => {
+//   //TODO: retrieve information of url
+// });
 
-app.post('/url', (req, res) => {
-  // TODO: create a short url
-});
+// app.post('/url', (req, res) => {
+//   // TODO: create a short url
+// });
 
 const port = process.env.PORT || 8000;
 app.listen(port, () => {
